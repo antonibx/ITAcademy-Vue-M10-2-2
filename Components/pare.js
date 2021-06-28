@@ -8,8 +8,7 @@ Vue.component('pare', {
         </div>
         <div class="mt-3" style="display: flex; align-items: center; justify-content: space-between">
             <button @click="afegirFill" class="btn btn-success">Afegir item</button>
-            <span id="total">Total: </span>
-            <button @click="calculaTotal" class="btn btn-danger">Calcula total</button>
+            <button id="total" @click="calculaTotal" class="btn btn-danger">Total</button>
         </div>
     </div>
     `,
